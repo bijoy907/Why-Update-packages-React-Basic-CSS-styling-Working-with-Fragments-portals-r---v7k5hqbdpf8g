@@ -17,7 +17,7 @@ class App extends Component {
     { name: 'Museum Island', country: 'Germany' },
     { name: 'Munnar', country: 'India' },
     { name: 'Leh Ladakh', country: 'India' },
-    { name: 'Goa', country: 'India' },
+    // { name: 'Goa', country: 'India' },
     { name: 'Agra', country: 'India' },
     { name: 'Dalhousie', country: 'India' },
     { name: 'Coorg', country: 'India' },
@@ -42,8 +42,8 @@ class App extends Component {
       <div id="main">
         {/* Do not remove the main div */}
         <ol>
-          <li key="location1">Kolkata</li>
-          <li key="location2">Odisha</li>
+          <li key="location1">Goa</li>
+          <li key="location2">Amritsar</li>
         </ol>
       </div>
     )
