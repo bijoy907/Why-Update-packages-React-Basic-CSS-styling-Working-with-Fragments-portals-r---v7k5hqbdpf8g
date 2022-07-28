@@ -42,8 +42,12 @@ class App extends Component {
       <div id="main">
         {/* Do not remove the main div */}
         <ol>
-          <li key="location1">Goa</li>
+          {/* <li key="location1">Goa</li> */}
           <li key="location1">Lonavala</li>
+        </ol>
+        <ol>
+          <li key="location2">Goa</li>
+          {/* <li key="location1">Lonavala</li> */}
         </ol>
       </div>
     )
